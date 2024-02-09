@@ -1,0 +1,27 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    
+.box{
+    background-color:#ffff;
+    padding: 30px;
+    box-shadow: 0 4px 4px rgba(26, 26, 26, 0.1); 
+}
+ul{
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+}
+li:hover{
+    color: #00754a;
+}
+
