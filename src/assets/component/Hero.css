@@ -1,15 +1,13 @@
 .heroimg img{
-    display: flex;
+    
     width: 50vw;
     padding-top: 30px;
 }
 .hero-right{
     background-color: #bbf2d1;
-    padding: 50vw;
-    align-items: center;
-
+    padding-top: 30px;
+    width: 50vw;
 }
-.div{
-display: flex;
-justify-content: space-between;
+div1{
+    display: inline-flex;
 }
