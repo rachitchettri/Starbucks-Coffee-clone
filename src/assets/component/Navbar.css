@@ -1,27 +1,74 @@
-
-*{
-    margin: 0;
-    padding: 0;
+@font-face {
+  font-family: "SoDo Sans SemiBold";
+  src: url("https://db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.eot");
+  src: url("https://db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.svg#SoDo Sans SemiBold")
+      format("svg");
 }
 
-    
-.box{
-    background-color:#ffff;
-    padding: 30px;
-    box-shadow: 0 4px 4px rgba(26, 26, 26, 0.1); 
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "SoDo Sans SemiBold";
 }
-ul{
-    display: flex;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 21px;
-    list-style: none;
-    align-items: center;
-    gap: 20px;
-}
-li:hover{
-    color: #00754a;
+nav {
+  background-color: #ffff;
+  display: flex;
+  padding: 19px;
+  box-shadow: 0 4px 4px rgba(26, 26, 26, 0.1);
+  justify-content: space-between;
 }
 
+ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  padding-top: 20px;
+}
+li:hover {
+  color: #00754a;
+}
+
+.right .white-btn {
+  color: black;
+  background-color: white;
+  border-radius: 12px;
+  border: 1px solid black;
+  padding: 1px 1px 1px;
+}
+.right .black-btn {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 1px 1px 1px 8px;
+}
+.right {
+  justify-content: space-between;
+  padding-right: 30px;
+  gap: 20px;
+  display: flex;
+}
+.img img{
+  width:51px;
+  padding-bottom: 10px;
+  align-items: center;
+  gap: 20px;
+  padding-left: 20px;
+  
+}
+
+.left .img{
+  display: flex;
+  gap: 50px;
+}
