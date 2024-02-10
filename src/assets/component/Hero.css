@@ -1,4 +1,15 @@
 .heroimg img{
     display: flex;
-    width: 200px;
+    width: 50vw;
+    padding-top: 30px;
+}
+.hero-right{
+    background-color: #bbf2d1;
+    padding: 50vw;
+    align-items: center;
+
+}
+.div{
+display: flex;
+justify-content: space-between;
 }
