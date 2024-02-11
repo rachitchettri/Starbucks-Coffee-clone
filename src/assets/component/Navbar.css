@@ -73,3 +73,9 @@ li:hover {
   display: flex;
   gap: 50px;
 }
+.right .black-btn:hover{
+  background-color: rgb(67, 60, 60);
+}
+.right .white-btn:hover{
+  background-color: rgba(167, 149, 149,0.1);
+}
