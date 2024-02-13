@@ -1,0 +1,20 @@
+.heroimg_2 img {
+    width: 689px;
+}
+.left_2 {
+background-color: #ecaed8;
+position: relative;
+height: 599px;
+width: 703px;
+margin: 0 auto;
+gap: 30px;
+}
+.left_2 .para_2{
+    font-weight: 400;
+    size: 24px;
+    line-height: 36px;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-style: normal;
+}

@@ -1,4 +1,4 @@
-.heroimg img{
+.heroimg img {
     
     width: 50vw;
     
@@ -14,7 +14,7 @@
     
 
 }
-.container{
+.container , .container_2{
     position: relative;
     overflow: hidden;
     height: auto;
