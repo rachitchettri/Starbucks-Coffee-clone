@@ -18,3 +18,25 @@ gap: 30px;
     padding-right: 80px;
     font-style: normal;
 }
+.btn_2:hover{
+    background-color: #c4cec7;
+}
+.left_2 h1,.para_2{
+    text-align: center;
+    padding-top: 45px;
+    color: #552200;
+}
+.left_2 h1{
+    padding-top: 170px;
+    
+    
+}
+.btn_2{
+    text-align: center;
+    padding-top: 45px;
+    color: #552200;
+    background-color: #ecaed8;
+    border-radius: 50px;
+    border:1px solid black;
+    padding: 7px 16px;
+}
